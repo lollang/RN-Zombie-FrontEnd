@@ -1,5 +1,5 @@
 import * as types from './actionTypes'
-import firebaseService from '../../services/firebase'
+import firebaseService from '../../Services/firebase'
 
 export const restoreSession = () => {
   return (dispatch) => {
